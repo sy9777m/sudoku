@@ -7,7 +7,15 @@ class LogIn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Container(),
+        child: Center(
+          child: Text(
+            'Sign in',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30.0,
+            ),
+          ),
+        ),
       ),
     );
   }
